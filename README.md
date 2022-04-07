@@ -68,11 +68,11 @@ The next step is to replace the new parameter in the Power Query connection.
 
 ![PQConnection](https://drive.google.com/uc?export=view&id=1UVydBJE-U0Q6DHCj2KjCST1RHqYcFTbW)
 
-It is necessary to create a table in Power BI with the same data type in order to bind the parameter and a slicer or filter where the final user can control the instruction to BigQuery. In my case I created a calculate table with DAX
+It is necessary to create a table in Power BI with the same data type in order to bind the parameter, and a slicer or filter where the final user can control the instruction to BigQuery. In my case I created a calculate table with DAX
 
 `DateParameters = CALENDAR(MIN(FactSalesOrder[OrderDate]),MAX(FactSalesOrder[OrderDate]))`
 
-Finally the last step is in the model tab select the table field in the bind to parameter option. 
+Finally, the last step is in the "model" tab select the table field in the "bind to parameter" option. 
 ![BindParameter](https://drive.google.com/uc?export=view&id=17iSU7s7EAth8gsAX1SsNybrUJENBvJHP)
 
 Reelevant links:
