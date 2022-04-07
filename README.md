@@ -3,13 +3,13 @@ Example of Dynamic M query parameters in Power BI and BigQuery
 
 In February 2022 update, Power Bi implemented Dynamic M query parameters in DirectQuery connections (previously only supported in Import). With Dynamic M Query Parameters, model authors can let reports use slicers to set the value or values for an M Query Parameters. 
 
-If you want review the oficial documentation please clic [here](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters).
+If you want to review the oficial documentation please clic [here](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters).
 
 ## Prepare data in Google BigQuery.
 
-The objective of this report is that the final user can select a specific date to obtain the orders that have been created before the chosen date and have not been paid. It is a 100% dynamic report which calculated the values in real-time with a direct connection to Google Bigquery.  
+The objective of this report is that the final user can select a specific date to obtain the orders that have been created before the chosen date and have not been paid. It is a 100% dynamic report which calculate the values in real-time with a direct connection to Google Bigquery.  
 
-I created two tables, OrderSales which contains the details of each order, and Payments, which includes the sales order key, date of payment, and amount. 
+In this case I created two tables, OrderSales which contains the details of each order, and Payments, which includes the sales order key, date of payment, and amount. 
 
 Sales Orders
 
@@ -57,6 +57,8 @@ CREATE OR REPLACE TABLE FUNCTION proyecto1-344420.Sales.fnViewSalesOrders(pDate 
 )
 );
 ```
+
+##Power Query
 
 In Power Query connection it is necessary to create a new Date Parameter 
 
