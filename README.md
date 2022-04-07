@@ -21,7 +21,7 @@ Payments
 
 ![SalesOrderTable](https://drive.google.com/uc?export=view&id=1r7I_iI1urqxLuNQInZS2f8Zqz0_SLFIJ)
 
-I have a function table that receives a date parameter to calculate the orders on the chosen date. 
+I wrote a function table that receives a date parameter to calculate the orders on the chosen date. 
 
 ```
 CREATE OR REPLACE TABLE FUNCTION proyecto1-344420.Sales.fnViewSalesOrders(pDate DATE) AS (
