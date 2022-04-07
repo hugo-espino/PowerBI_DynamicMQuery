@@ -1,9 +1,8 @@
 # Power BI Dynamic M Query parameters.
 Example of Dynamic M query parameters in Power BI and BigQuery
+[Power Bi report Url](https://app.powerbi.com/view?r=eyJrIjoiNjk4OTZmY2YtNzVlYi00Y2M3LWI4MjMtMjVlYjNmNWQyZjExIiwidCI6ImJmNGZhOGE3LTJkNmUtNGRmYi1iYzdkLTQ1ZjE0MmZlZmU0MCJ9&pageName=ReportSection)
 
 In February 2022 update, Power Bi implemented Dynamic M query parameters in DirectQuery connections (previously only supported in Import). With Dynamic M Query Parameters, model authors can let reports use slicers to set the value or values for an M Query Parameters. 
-
-[Power Bi report Url](https://app.powerbi.com/view?r=eyJrIjoiNjk4OTZmY2YtNzVlYi00Y2M3LWI4MjMtMjVlYjNmNWQyZjExIiwidCI6ImJmNGZhOGE3LTJkNmUtNGRmYi1iYzdkLTQ1ZjE0MmZlZmU0MCJ9&pageName=ReportSection)
 
 If you want to review the oficial documentation please clic [here](https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-dynamic-m-query-parameters).
 
