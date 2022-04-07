@@ -57,8 +57,7 @@ CREATE OR REPLACE TABLE FUNCTION proyecto1-344420.Sales.fnViewSalesOrders(pDate 
 )
 );
 ```
-
-##Power Query
+## Power Query.
 
 In Power Query connection it is necessary to create a new Date Parameter 
 
