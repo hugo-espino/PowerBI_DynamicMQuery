@@ -7,7 +7,7 @@ If you want to review the oficial documentation please clic [here](https://docs.
 
 ## Prepare data in Google BigQuery.
 
-The objective of this report is that the final user can select a specific date to obtain the orders that have been created before the chosen date and have not been paid. It is a 100% dynamic report which calculate the values in real-time with a direct connection to Google Bigquery.  
+The objective of this report is that the final user can select a specific date to obtain the orders that have been created before the chosen date and have not been paid. It is a 100% dynamic report which calculates the values in real-time with a direct connection to Google Bigquery.  
 
 In this case I created two tables, OrderSales which contains the details of each order, and Payments, which includes the sales order key, date of payment, and amount. 
 
